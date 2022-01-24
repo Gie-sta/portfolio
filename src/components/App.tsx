@@ -1,9 +1,14 @@
 import React from "react";
+import AboutMe from "./AboutMe/AboutMe";
 
 type Props = {};
 
 const App = (props: Props) => {
-  return <div>Giedre</div>;
+  return (
+    <div>
+      <AboutMe />
+    </div>
+  );
 };
 
 export default App;
