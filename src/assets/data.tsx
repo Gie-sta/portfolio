@@ -1,5 +1,5 @@
 export const data = {
-  WorkExperience: [
+  workExperience: [
     {
       from: "2015-11",
       till: "2021-03",
@@ -15,6 +15,50 @@ export const data = {
       position: "Tax advisors team leader, tax advisor",
       describtion:
         "I was in charge of a group of 10 people. I was responsible for the quality of the team consultations, training of new employees, assessment of the quality of the consultations, collection of relevant information, analysis of legal acts, and provision of comments. Senior tax advisor",
+    },
+  ],
+  education: [
+    {
+      year: "2010",
+      institution: "Kaunas University of Technology",
+      degree: "bachelor",
+      speciality: "public administration",
+    },
+    {
+      year: "2012",
+      institution: "Mykolas Romeris University",
+      degree: "master",
+      speciality: "finance",
+    },
+  ],
+  courses: [
+    {
+      date: "2021-06",
+      hours: "52",
+      organizer: "Udemy",
+      title: "Modern React with Redux",
+      describtion: "React.js, Redux, React Router",
+    },
+    {
+      date: "2021-02",
+      hours: "63",
+      organizer: "Udemy",
+      title: "The Web Developer Bootcamp 2021",
+      describtion: "HTML, CSS, JavaScript, Node.js, Express.js, MongoDb",
+    },
+    {
+      date: "2020-12",
+
+      organizer: "Women Go Tech",
+      title: "Atrask Technologijas",
+      describtion: "3 months online Discover Tech program for women",
+    },
+    {
+      date: "2020-10",
+      hours: "21",
+      organizer: "Udemy",
+      title: " Modern HTML & CSS From The Beginning",
+      describtion: "HTML, SCC, SCSS",
     },
   ],
 };
