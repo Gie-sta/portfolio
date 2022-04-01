@@ -27,6 +27,9 @@
       height: 40px;
       margin-right: 10px;
       margin-bottom: 20px;
+      &:hover {
+        color: gray;
+      }
     }
     .linkedin {
       color: #0a66c2;
