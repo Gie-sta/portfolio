@@ -60,6 +60,7 @@
       .icon {
         width: 55px;
         height: 55px;
+        transition: color 0.5s;
         &:hover {
           color: grey;
         }
