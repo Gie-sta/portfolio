@@ -16,31 +16,6 @@ const Work = (props: Props) => {
 
       <div className={styles.works}>
         <div className={styles.work}>
-          <img src={space} alt="space tourism website | Frontend mentor" />
-          <div className={`${styles.overlay} ${styles.blur}`}>
-            <h4>
-              Space tourism multi-page website <span>from Frontend Mentor</span>
-            </h4>
-            <div className={styles.links}>
-              <a
-                href="https://space-tourism-website-gie-sta.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit
-                <FaExternalLinkAlt />
-              </a>
-              <a
-                href="https://github.com/Gie-sta/space-tourism"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View code <FaGithub />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className={styles.work}>
           <img src={calc} alt="" />
           <div className={`${styles.overlay} ${styles.blur}`}>
             <h4>Number frequency calculator</h4>
@@ -73,6 +48,31 @@ const Work = (props: Props) => {
             <div className={styles.links}>
               <a
                 href="https://github.com/Gie-sta/movieAppRS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View code <FaGithub />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={styles.work}>
+          <img src={space} alt="space tourism website | Frontend mentor" />
+          <div className={`${styles.overlay} ${styles.blur}`}>
+            <h4>
+              Space tourism multi-page website <span>from Frontend Mentor</span>
+            </h4>
+            <div className={styles.links}>
+              <a
+                href="https://space-tourism-website-gie-sta.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/Gie-sta/space-tourism"
                 target="_blank"
                 rel="noopener noreferrer"
               >

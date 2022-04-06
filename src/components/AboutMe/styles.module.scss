@@ -27,9 +27,10 @@
       height: 40px;
       margin-right: 10px;
       margin-bottom: 20px;
-      transition: color 0.5s;
+      transition: all 0.5s;
       &:hover {
         color: gray;
+        transform: scale(1.1);
       }
     }
     .linkedin {
@@ -46,6 +47,7 @@
         margin-left: 3px;
         &:hover {
           color: grey;
+          transform: scale(1.2);
         }
       }
       .copyText {

@@ -60,9 +60,10 @@
       .icon {
         width: 55px;
         height: 55px;
-        transition: color 0.5s;
+        transition: all 0.5s;
         &:hover {
           color: grey;
+          transform: scale(1.1);
         }
       }
       .icon:hover + .skillName {

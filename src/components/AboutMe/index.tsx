@@ -65,19 +65,20 @@ const AboutMe = (props: Props) => {
       <div className={styles.text}>
         <h3>Short info about me</h3>
         <p>
-          I have been learning frontend development for more than a year now. I
-          have mastered HTML, CSS, JavaScript, React.js, also learned Node.js,
-          Express.js, MongoDb. Now I am practicing Typescript. This cv is made
-          with React.js and Typescript.
+          In the past 1.5 year I was learning frontend development as I have
+          decided to change my career completely. So far I have learned and have
+          experience in HTML, CSS, JavaScript, React.js, Redux, Node.js,
+          MongoDb, even a little with React Native. Now I am practicing
+          Typescript. This CV is made with React.js, SCSS and Typescript.
         </p>
         <p>
-          I am looking for a team which could help me grow as profesional
-          frontend developer.
+          I am looking for a team which could help me grow as a professional. I
+          am learning fast and eager to get real experience in the tech company.
+          I am ready to dive deep in the work, to be a team member, to grow as a
+          professional and as a person. I believe I can be a valuable member of
+          a company and a team.
         </p>
-        <p>
-          I am a mentee at Women Go Tech, Frontend track. I have a mentor who
-          guides me in the frontend development world.
-        </p>
+        <p>I am a mentee at Women Go Tech, Frontend track.</p>
       </div>
     </section>
   );
