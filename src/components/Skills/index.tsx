@@ -7,6 +7,8 @@ import {
   SiMongodb,
   SiExpress,
   SiNpm,
+  SiTypescript,
+  SiJavascript,
 } from "react-icons/si";
 import { FaGithub, FaGitAlt } from "react-icons/fa";
 
@@ -24,6 +26,14 @@ const Skills = (props: Props) => {
         <div>
           <SiCss3 className={`${styles.icon} ${styles.cssLogo}`} />
           <div className={styles.skillName}>CSS3</div>
+        </div>
+        <div>
+          <SiJavascript className={`${styles.icon} ${styles.JsLogo}`} />
+          <div className={styles.skillName}>JavaScript</div>
+        </div>
+        <div>
+          <SiTypescript className={`${styles.icon} ${styles.TsLogo}`} />
+          <div className={styles.skillName}>Typescript</div>
         </div>
         <div>
           <SiReact className={`${styles.icon} ${styles.reactLogo}`} />

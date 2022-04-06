@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { FiCheck } from "react-icons/fi";
-import AboutMe from "../AboutMe";
+import { GrDocumentDownload } from "react-icons/gr";
 
+import AboutMe from "../AboutMe";
 import Skills from "../Skills";
 import Work from "../Work";
 import Fields from "../Fields";
 import { data } from "../../assets/data";
 import { WorkExperience, Courses, Education } from "../../types/data";
+import cv from "../../assets/giedre_stasione_cv.pdf";
 
 import styles from "./styles.module.scss";
 
-type Props = {};
-
-const App = (props: Props) => {
+const App = () => {
   const [workExp, setWorkExp] = useState<WorkExperience>(
     data.workExperience[0]
   );
@@ -21,6 +21,13 @@ const App = (props: Props) => {
 
   return (
     <div className={styles.container}>
+      <div className={styles.cv}>
+        <p>CV</p>
+        <a href={cv} download="giedre_stasione_cv.pdf">
+          <GrDocumentDownload className={styles.cvIcon} />
+        </a>
+        <div className={styles.cvText}>Download CV in PDF</div>
+      </div>
       <AboutMe />
       <Skills />
       <Work />

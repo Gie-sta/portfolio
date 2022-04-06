@@ -19,7 +19,7 @@ const AboutMe = (props: Props) => {
     <section aria-label="about me">
       <div className={styles.content}>
         <div className={styles.info}>
-          <div>
+          <div className={styles.header}>
             <h1>Giedrė Stašionė</h1>
             <h2>frontend developer</h2>
           </div>

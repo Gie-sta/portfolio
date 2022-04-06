@@ -1,71 +1,112 @@
-.profile_photo {
-  width: 200px;
-  height: 200px;
-}
-
 .content {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
-
-  .info {
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h1 {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    &:hover {
+      color: gray;
+      transform: scale(1.1);
+    }
+  }
+  .linkedin {
+    color: #0a66c2;
+  }
+  .contacts {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    div {
+      margin-right: 10px;
+    }
+    .copyIcon {
+      cursor: pointer;
+      margin-left: 3px;
+      &:hover {
+        color: grey;
+        transform: scale(1.2);
+      }
+    }
+    .copyText {
+      position: absolute;
+      font-size: 12px;
+      top: -20px;
+      left: 285px;
+      display: none;
+      color: rgb(68, 68, 68);
+      width: 100px;
+    }
+    .copyIcon:hover + .copyText {
+      display: block;
+    }
+  }
+}
+img {
+  width: 310px;
+  height: 419px;
+}
+
+@media only screen and (max-width: 900px) {
+  .info {
     h1 {
-      font-weight: 200;
-      text-transform: uppercase;
-      font-size: 40px;
+      font-size: 30px;
     }
     h2 {
-      font-size: 40px;
-      font-weight: 400;
-      letter-spacing: 0.16em;
+      font-size: 30px;
+      letter-spacing: 0.14em;
     }
     .icon {
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-      margin-bottom: 20px;
-      transition: all 0.5s;
-      &:hover {
-        color: gray;
-        transform: scale(1.1);
-      }
+      width: 30px;
+      height: 30px;
     }
-    .linkedin {
-      color: #0a66c2;
-    }
-    .contacts {
-      position: relative;
-      display: flex;
-      div {
-        margin-right: 10px;
-      }
-      .copyIcon {
-        cursor: pointer;
-        margin-left: 3px;
-        &:hover {
-          color: grey;
-          transform: scale(1.2);
-        }
-      }
-      .copyText {
-        position: absolute;
-        font-size: 12px;
-        top: -20px;
-        left: 285px;
-        display: none;
-        color: rgb(68, 68, 68);
-        width: 100px;
-      }
-      .copyIcon:hover + .copyText {
-        display: block;
+  }
+}
+img {
+  width: 248px;
+  height: 335px;
+}
+@media only screen and (max-width: 656px) {
+  .content {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .info {
+    .header {
+      h2 {
+        font-size: 24px;
+        margin: 5px;
+        letter-spacing: 0.14em;
       }
     }
   }
   img {
-    width: 310px;
-    height: 419px;
+    width: 124px;
+    height: 167px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .info {
+    .contacts {
+      display: block;
+    }
   }
 }
