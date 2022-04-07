@@ -60,7 +60,7 @@ const Work = () => {
             <img src={space} alt="space tourism website | Frontend mentor" />
             <div className={`${styles.overlay} ${styles.blur}`}>
               <h4>
-                Space tourism multi-page website{" "}
+                Space tourism multi-page website
                 <span>from Frontend Mentor</span>
               </h4>
               <div className={styles.links}>

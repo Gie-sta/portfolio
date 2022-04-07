@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FiCheck } from "react-icons/fi";
-import { GrDocumentDownload } from "react-icons/gr";
+import { RiFileDownloadLine } from "react-icons/ri";
 
 import AboutMe from "../AboutMe";
 import Skills from "../Skills";
@@ -24,14 +24,14 @@ const App = () => {
       <div className={styles.cv}>
         <p>CV</p>
         <a href={cv} download="giedre_stasione_cv.pdf">
-          <GrDocumentDownload className={styles.cvIcon} />
+          <RiFileDownloadLine className={styles.cvIcon} />
         </a>
         <div className={styles.cvText}>Download CV in PDF</div>
       </div>
       <AboutMe />
       <Skills />
       <Work />
-      <section aria-label="work-experience">
+      <section aria-label="work experience">
         <h2>My work experience</h2>
         <div className={styles.content}>
           <Fields

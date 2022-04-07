@@ -8,7 +8,7 @@ export const data = {
       position: "Chief Specialist",
       describtion:
         "My responsibility was to research economic and financial activities according to the accounting documents of companies and present a conclusion. Maternity leave since 2017-05",
-      more: "Proven ability to learn fast as I started working with no experience in accounting. Strong ownership, because sometimes needed to defend my conclusions of research as expert in the court.",
+      more: "Proven ability to learn fast as I started working with no experience in accounting. Strong ownership, because I needed to defend my conclusions of research as expert in the court.",
     },
     {
       id: 2,
@@ -17,8 +17,8 @@ export const data = {
       companyName: "State Tax Inspectorate",
       position: "Tax advisor, Tax advisors team lead",
       describtion:
-        "As a tax advisor I was consulting taxpayers  in a call center by answering inbound calls or written inquiries. As team lead, I was responsible for the quality of the team inbound calls, training of new employees, assessment of the quality of the consultations, collection of new and relevant legal information, analysis of legal acts, and provision of comments.",
-      more: "Proven ability to learn fast, communicate with customers and team, share my knowledge with team as I have started as junior tax advisor, after a few years I was put in charge of a group of 10 people. Ability to master new technologies because I needed to learn new features like EDS, Mano VMI and advise taxpayers and team members how to use them and many others internal systems to evaluate sensitive information about paid taxes and debts.",
+        "As a tax advisor I was consulting taxpayers  in a call center by answering inbound calls or written inquiries. As a team lead, I was responsible for the quality of the team inbound calls, training of new employees, assessment of the quality of the consultations, collection of new and relevant legal information, analysis of legal acts, and provision of comments.",
+      more: "Proven ability to learn fast, communicate with customers and team, share my knowledge with team, as I have started as junior tax advisor, after a few years I was put in charge of a group of 10 people. Ability to master new technologies because I needed to learn new features like EDS, Mano VMI and advise taxpayers and team members how to use them and many others internal systems to evaluate sensitive information about paid taxes and debts.",
     },
   ],
   education: [
@@ -75,4 +75,5 @@ export const data = {
       certificate: true,
     },
   ],
+  email: "giedre.stasione@gmail.com",
 };

@@ -1,4 +1,3 @@
-import styles from "./styles.module.scss";
 import { IoLogoHtml5 } from "react-icons/io";
 import {
   SiCss3,
@@ -12,9 +11,9 @@ import {
 } from "react-icons/si";
 import { FaGithub, FaGitAlt } from "react-icons/fa";
 
-type Props = {};
+import styles from "./styles.module.scss";
 
-const Skills = (props: Props) => {
+const Skills = () => {
   return (
     <section aria-label="my skills" className={styles.container}>
       <h2>My skills</h2>
