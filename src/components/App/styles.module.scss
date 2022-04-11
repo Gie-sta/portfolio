@@ -39,39 +39,9 @@
     display: block;
   }
 }
-.content {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.describtion {
-  padding-top: 10px;
-  padding-left: 20px;
-  background-color: #fff;
-  li {
-    padding-bottom: 10px;
-    font-size: 14px;
-    span {
-      margin-right: 5px;
-      font-weight: bold;
-    }
-  }
-}
 
 @media only screen and (max-width: 1240px) {
   .container {
     margin: 0;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .describtion {
-    padding-left: 10px;
-    li {
-      padding-bottom: 10px;
-      font-size: 12px;
-      span {
-        margin-right: 2px;
-      }
-    }
   }
 }

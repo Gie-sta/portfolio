@@ -1,13 +1,12 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdContentCopy } from "react-icons/md";
 
-import { data } from "../../assets/data";
 import profilePhoto from "../../assets/photo.jpg";
 
 import styles from "./styles.module.scss";
 
 const AboutMe = () => {
-  const email: string = data.email;
+  const email: string = "giedre.stasione@gmail.com";
 
   const handleCoppyClick = async () => {
     await navigator.clipboard.writeText(email);
