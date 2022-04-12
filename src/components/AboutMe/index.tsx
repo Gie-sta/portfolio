@@ -1,5 +1,6 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdContentCopy } from "react-icons/md";
+import { FiExternalLink } from "react-icons/fi";
 
 import profilePhoto from "../../assets/photo.jpg";
 
@@ -66,7 +67,15 @@ const AboutMe = () => {
           decided to change my career completely. So far I have learned and have
           experience in HTML, CSS, JavaScript, React.js, Redux, Node.js,
           MongoDb, even a little with React Native. Now I am practicing
-          Typescript. This CV is made with React.js, SCSS and Typescript.
+          Typescript. This CV is made with React.js, SCSS and Typescript
+          <a
+            href="https://github.com/Gie-sta/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiExternalLink className={styles.copyIcon} />
+          </a>
+          .
         </p>
         <p>
           I am looking for a team which could help me grow as a professional. I

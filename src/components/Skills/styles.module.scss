@@ -9,6 +9,7 @@
   grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
   div {
     position: relative;
+    width: 90px;
     .skillName {
       display: none;
       text-align: center;
