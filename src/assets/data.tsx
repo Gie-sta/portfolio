@@ -41,30 +41,7 @@ export const data: IData = {
       },
     ],
   },
-  education: {
-    labels: {
-      year: "Year",
-      degree: "Degree",
-      speciality: "Speciality",
-    },
-    title: "My courses, seminares",
-    items: [
-      {
-        id: 1,
-        year: "2010",
-        label: "Kaunas University of Technology",
-        degree: "bachelor",
-        speciality: "public administration",
-      },
-      {
-        id: 2,
-        year: "2012",
-        label: "Mykolas Romeris University",
-        degree: "master",
-        speciality: "finance",
-      },
-    ],
-  },
+
   courses: {
     labels: {
       date: "Date",
@@ -73,7 +50,7 @@ export const data: IData = {
       description: "Description",
       certificate: "Certificate",
     },
-    title: "Education",
+    title: "My courses, seminares",
     items: [
       {
         id: 1,
@@ -110,6 +87,30 @@ export const data: IData = {
         label: " Modern HTML & CSS From The Beginning",
         description: "HTML, SCC, SCSS",
         certificate: true,
+      },
+    ],
+  },
+  education: {
+    labels: {
+      year: "Year",
+      degree: "Degree",
+      speciality: "Speciality",
+    },
+    title: "Education",
+    items: [
+      {
+        id: 1,
+        year: "2010",
+        label: "Kaunas University of Technology",
+        degree: "bachelor",
+        speciality: "public administration",
+      },
+      {
+        id: 2,
+        year: "2012",
+        label: "Mykolas Romeris University",
+        degree: "master",
+        speciality: "finance",
       },
     ],
   },
